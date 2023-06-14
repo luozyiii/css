@@ -1,3 +1,46 @@
+// 基础色
+import {
+  generate,
+  generateTheme,
+  red,
+  volcano,
+  orange,
+  gold,
+  yellow,
+  lime,
+  green,
+  cyan,
+  blue,
+  geekblue,
+  purple,
+  magenta,
+  grey,
+  gray,
+} from "./palette";
+
+// 主题色
+import themeColor from "./theme";
+
+// css变量 json表
 import variable from "./variable";
-import generate from "./utils/generate";
-export { variable, generate };
+
+export {
+  generate,
+  generateTheme,
+  red,
+  volcano,
+  orange,
+  gold,
+  yellow,
+  lime,
+  green,
+  cyan,
+  blue,
+  geekblue,
+  purple,
+  magenta,
+  grey,
+  gray,
+  themeColor,
+  variable,
+};

@@ -14,9 +14,9 @@ $ npm run dev
 $ npm run build
 ```
 
-## Options
+## Docs
 
-TODO
+https://luozyiii.github.io/rc-component/design/palette
 
 ## LICENSE
 

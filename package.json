@@ -1,12 +1,12 @@
 {
   "name": "@leslies/css",
   "version": "0.0.1",
-  "description": "",
+  "description": "原子化css，提供基础色，维护主题色css变量。",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
     "dev": "father dev",
-    "build:css": "node script/theme.js",
+    "build:css": "ts-node script/theme.ts",
     "build": "npm run build:css && father build",
     "build:deps": "father prebundle",
     "prepublishOnly": "father doctor && npm run build"
@@ -24,10 +24,13 @@
     "access": "public"
   },
   "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
     "father": "^4.2.3",
-    "node-sass": "^9.0.0"
+    "node-sass": "^9.0.0",
+    "ts-node": "^10.9.1"
   },
   "dependencies": {
-    "@ctrl/tinycolor": "^3.6.0"
+    "@ctrl/tinycolor": "^3.6.0",
+    "fs-extra": "^11.1.1"
   }
 }
