@@ -1,5 +1,6 @@
 import generate from "./utils/generate";
 
+// 基本色|调色版
 const presetPrimaryColors: Record<string, string> = {
   red: "#F5222D",
   volcano: "#FA541C",

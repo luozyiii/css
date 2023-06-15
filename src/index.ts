@@ -18,7 +18,17 @@ import {
 } from "./palette";
 
 // 主题色
-import themeColor from "./theme";
+import {
+  brand,
+  danger,
+  warning,
+  caution,
+  success,
+  tip,
+  text,
+  fill,
+  line,
+} from "./theme";
 
 // css变量 json表
 import variable from "./variable";
@@ -39,6 +49,14 @@ export {
   magenta,
   grey,
   gray,
-  themeColor,
+  brand,
+  danger,
+  warning,
+  caution,
+  success,
+  tip,
+  text,
+  fill,
+  line,
   variable,
 };
