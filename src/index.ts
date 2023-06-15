@@ -1,7 +1,6 @@
 // 基础色
 import {
   generate,
-  generateTheme,
   red,
   volcano,
   orange,
@@ -26,7 +25,6 @@ import variable from "./variable";
 
 export {
   generate,
-  generateTheme,
   red,
   volcano,
   orange,

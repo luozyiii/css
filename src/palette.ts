@@ -48,18 +48,8 @@ const gray = presetPalettes.grey;
 
 export type PalettesProps = Record<string, string[] & { primary?: string }>;
 
-const generateTheme = (name: string, colors: string[]) => {
-  return colors?.map((color, index) => {
-    return {
-      name: `${name}-${index + 1}`,
-      value: color,
-    };
-  });
-};
-
 export {
   generate,
-  generateTheme,
   presetPalettes,
   presetDarkPalettes,
   presetPrimaryColors,

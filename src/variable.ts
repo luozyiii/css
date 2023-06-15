@@ -1,4 +1,3 @@
-
 const variable: any = {
   "--red-1": "#fff1f0",
   "--red-2": "#ffccc7",
@@ -135,6 +134,12 @@ const variable: any = {
   "--brand-3": "#301A88",
   "--brand-4": "#D5D6DA",
   "--brand-5": "#EAEAFC",
+  "--danger-1": "#FA3B29",
+  "--danger-2": "#E33323",
+  "--danger-3": "#CA2E1F",
+  "--danger-4": "#FEB0A9",
+  "--danger-5": "#FED7D4",
+  "--danger-6": "#FFECEB",
   "--warning-1": "#FA6F1E",
   "--warning-2": "#D55E1A",
   "--warning-3": "#AF4E15",
@@ -172,6 +177,6 @@ const variable: any = {
   "--fill-5": "rgba(24, 26, 49, 0.6)",
   "--line-1": "rgba(24, 26, 49, 0.1)",
   "--line-2": "rgba(24, 26, 49, 0.18)",
-  "--line-3": "#EBEDF0"
-}
+  "--line-3": "#EBEDF0",
+};
 export default variable;
