@@ -1,3 +1,4 @@
+
 const variable: any = {
   "--red-1": "#fff1f0",
   "--red-2": "#ffccc7",
@@ -178,5 +179,24 @@ const variable: any = {
   "--line-1": "rgba(24, 26, 49, 0.1)",
   "--line-2": "rgba(24, 26, 49, 0.18)",
   "--line-3": "#EBEDF0",
-};
+  "--primary-1_v2": "#5A32FF",
+  "--primary-2_v2": "#FFCB11",
+  "--brand-gradient-1_v2": "linear-gradient(127.15deg, #6D84ED 2.59%, #5A32FF 96.3%)",
+  "--brand-gradient-2_v2": "linear-gradient(320.8deg, #FFAB24 4.35%, #FFCB11 96.07%)",
+  "--dangerous_v2": "#FA3B29",
+  "--warning_v2": "#FA6F1E",
+  "--success_v2": "#1AC14F",
+  "--secure_v2": "#5A32FF",
+  "--textPrimary_v2": "#181A31",
+  "--textTertiary_v2": "#747683",
+  "--textQuaternary_v2": "#AEAFB7",
+  "--textReverse_v2": "#FFFFFF",
+  "--general-1_v2": "#F8F8F9",
+  "--general-2_v2": "#F2F3F5",
+  "--general-3_v2": "#FFFFFF",
+  "--shade_v2": "#717381",
+  "--line-1_v2": "#d7d7db",
+  "--brand_glorious_v2": "#FF3B52",
+  "--black_v2": "#161823"
+}
 export default variable;

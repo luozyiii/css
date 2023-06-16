@@ -1,10 +1,8 @@
 import * as fs from "fs-extra";
 import themeColor from "../src/theme";
+import themeColorV2 from "../src/v2";
 const sass = require("node-sass");
 const palette = require("../src/palette");
-
-// css 变量
-const themeObj: any = {};
 
 const generateTheme = (name: string, colors: any[]) => {
   return colors
@@ -14,6 +12,9 @@ const generateTheme = (name: string, colors: any[]) => {
     })
     .join("");
 };
+
+// css 变量
+const themeObj: any = {};
 
 // 调色版
 const colorsData: string[] = [];
@@ -27,6 +28,12 @@ Object.keys(presetPalettes).forEach((key) => {
 Object.keys(themeColor).forEach((key) => {
   const item = themeColor[key];
   colorsData.push(generateTheme(key, item));
+});
+
+// 主题色v2
+Object.keys(themeColorV2).forEach((key) => {
+  themeObj[`--${key}`] = themeColorV2[key];
+  colorsData.push(`--${key}: ${themeColorV2[key]};`);
 });
 
 const allColorData = colorsData.join("");
